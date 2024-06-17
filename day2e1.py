@@ -5,6 +5,10 @@ for item in number:
     print ( "even",item)
   else:
       print("add",item)
+        
+number[-2]=100
+print(number)
+
     
 
 
