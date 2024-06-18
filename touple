@@ -1,0 +1,11 @@
+touple=("apple","banana","mango")
+for item in touple:
+    print(item)
+print(touple)
+
+n=("a",)
+
+print(n)
+
+n=("a")
+print(n)
