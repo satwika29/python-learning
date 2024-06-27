@@ -1,25 +1,10 @@
-touple=("apple","banana","mango")
-touple=list(touple)#convertinng touple to list
-for item in touple:
-    print(item)
-print(touple)
-
-
-
-n=("a",)
-
-print(n)
-
-n=("a")
-print(n) 
-
 emp = {"name":"abcd","id":1}
 empList = [{"name":"abcd","id":1},{"name":"xyz","id":2}]
 for item in empList:
     print('name',item['name'],'id',item['id'])
 
 
-    def display_emp_list():
+def display_emp_list():
     emp = {"name":"abcd","id":1}
     empList = [{"name":"abcd","id":1},{"name":"xyz","id":2}]
     for item in empList:

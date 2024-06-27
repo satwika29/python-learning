@@ -7,6 +7,18 @@ for item in n:
           
 print(s)
 
+dupNames ={"a","b","c","b","c"}
+print(list(set(dupNames)))
+dubset=set(dupNames)
+print(dubset)
+newlist=list(dubset)
+print(newlist)
+
+
+
+
+
+
 
 
     
